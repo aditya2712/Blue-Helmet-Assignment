@@ -3,8 +3,9 @@
 ### Deployment
 The application is deployed on : https://blue-helmet-assignment.herokuapp.com/
 The routes are:
-https://blue-helmet-assignment.herokuapp.com/job_seekers/
-https://blue-helmet-assignment.herokuapp.com/user_info_details/
+- https://blue-helmet-assignment.herokuapp.com/job_seekers/
+- https://blue-helmet-assignment.herokuapp.com/user_info_details/
+
 Details of both the routes are given below
 
 ### Technologies Used:
