@@ -10,6 +10,10 @@ app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ extended: true }));
 
+app.get("/", (req, res) => {
+  res.send("Server is running, proceed to /job_seekers or /user_info_details ");
+});
+
 app.get("/job_seekers/", async (req, res) => {
   try {
     query = `
