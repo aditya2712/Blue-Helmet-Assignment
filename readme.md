@@ -1,5 +1,12 @@
 ## Blue Helmet Assignment
 
+### Deployment
+The application is deployed on : https://blue-helmet-assignment.herokuapp.com/
+The routes are:
+https://blue-helmet-assignment.herokuapp.com/job_seekers/
+https://blue-helmet-assignment.herokuapp.com/user_info_details/
+Details of both the routes are given below
+
 ### Technologies Used:
 - Node.js
 - Express.js
@@ -11,11 +18,11 @@
 1. Clone the repository
 2. `cd Blue-Helmet-Assignment`
 3. `npm i`
-4. Obtain the .env file from the repository owner
+4. Obtain the .env file
 5. Start the development server using: `npm run dev`
 
 ### Routes
-GET /job_seekers/: Returns the nested list of all job seekers in the format:
+GET /job_seekers/: Returns the list of all job seekers in the format:
 ```json
 [
     {
